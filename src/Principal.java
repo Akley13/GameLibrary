@@ -22,6 +22,9 @@ public class Principal {
         boolean assinatura = true;
         System.out.println("Plano: " + assinatura);
 
+        int classificacao = (int) (media / 2);
+        System.out.println(classificacao);
+
     }
 
 }
