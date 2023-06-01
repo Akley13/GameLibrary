@@ -13,7 +13,8 @@ public class Principal {
         System.out.println("História: " + historia);
 
         double media = (9.5 + 10 + 8) / 3;
-        System.out.println("Média de avaliação: " + media);
+        System.out.printf("Média de avaliação: %.2f", media);
+        System.out.println();
 
         double notaDoJogo = 10;
         System.out.println("Nota: " + notaDoJogo);
