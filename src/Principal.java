@@ -4,11 +4,16 @@ public class Principal {
     public static void main(String[] args) {
         System.out.println("GAME LIBRARY");
         System.out.println();
-        System.out.println("Game: The last of us");
+        System.out.println("Jogo: The last of us");
 
-        int releaseYear = 2013;
+        int anoLancamento = 2013;
+        System.out.println("Ano de lançamento: " + anoLancamento);
 
-        System.out.println("Release Year: " + releaseYear);
+        double notaDoJogo = 10;
+        System.out.println("Nota: " + notaDoJogo);
+
+        boolean incluinoNoPlano = true;
+        System.out.println("Plano: " + incluinoNoPlano);
 
     }
 
